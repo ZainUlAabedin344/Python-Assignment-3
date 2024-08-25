@@ -43,4 +43,37 @@ print("After converting celcius to fahrenheit, Temperatur is : ", fahrenheit1)
 
 
 # Question No 06
-# 
+# Convert a given number of seconds into minutes and seconds using variables.
+print("----------------------------------<=Time Calculation=>----------------------------------")
+print("----------------------------------<=Minutes into Seconds=>----------------------------------")
+timeCalculation:int =int(input("Enter time in Minutes to calculate it into second : "))
+result:int = timeCalculation * 60
+print("Your given Minutes in seconds :" , result)
+
+print("----------------------------------<=Second into Minutes=>----------------------------------")
+timeCalculate:int = int(input("Enter time in seconds  to calculate it  into minutes : "))
+timeInMinutes:int = timeCalculate / 60
+print("Your given Seconds in Minutes :",  timeInMinutes)
+
+# Question No 07
+#  - Write a program that calculates the percentage.
+print("----------------------------------<=Percentage Calculation=>----------------------------------")
+obtainedMarks:int = int(input("Enter Your Obtained Marks : "))
+totalMarks:int =int(input("Enter total marks : "))
+percentage:int = obtainedMarks / totalMarks * 100
+print("Your Obtained marks in percentage is : ", percentage )
+
+# Question No 08
+# - Write a program that calculates the BMI using height (in meters) and weight (in kilograms) variables
+print("----------------------------------<=BMI or Body Mass index Calculation=>----------------------------------")
+height:int =float(input("Enter Your height in meter : "))
+weight:int =int(input("Enter your body weight in kg : "))
+bmi:int = weight /( height**2)
+print("Your BMI is : ",bmi)
+
+# Question No 09
+# - Write a program that calculates the volume of a cylinder using the formula .
+print("----------------------------------<=Calculate Volume of cylinder=>----------------------------------")
+radius:int = int(input("Enter the radius  : "))
+height1:int =int(input("Enter the height : "))
+print("The volume of cylinder is : ", 3.14*(radius**2)*height)
